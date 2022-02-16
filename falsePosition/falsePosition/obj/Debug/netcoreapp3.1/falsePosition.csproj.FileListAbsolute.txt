@@ -1,0 +1,14 @@
+D:\3-1\Numerical\Codes\falsePosition\falsePosition\bin\Debug\netcoreapp3.1\falsePosition.exe
+D:\3-1\Numerical\Codes\falsePosition\falsePosition\bin\Debug\netcoreapp3.1\falsePosition.deps.json
+D:\3-1\Numerical\Codes\falsePosition\falsePosition\bin\Debug\netcoreapp3.1\falsePosition.runtimeconfig.json
+D:\3-1\Numerical\Codes\falsePosition\falsePosition\bin\Debug\netcoreapp3.1\falsePosition.runtimeconfig.dev.json
+D:\3-1\Numerical\Codes\falsePosition\falsePosition\bin\Debug\netcoreapp3.1\falsePosition.dll
+D:\3-1\Numerical\Codes\falsePosition\falsePosition\bin\Debug\netcoreapp3.1\falsePosition.pdb
+D:\3-1\Numerical\Codes\falsePosition\falsePosition\obj\Debug\netcoreapp3.1\falsePosition.csproj.AssemblyReference.cache
+D:\3-1\Numerical\Codes\falsePosition\falsePosition\obj\Debug\netcoreapp3.1\falsePosition.GeneratedMSBuildEditorConfig.editorconfig
+D:\3-1\Numerical\Codes\falsePosition\falsePosition\obj\Debug\netcoreapp3.1\falsePosition.AssemblyInfoInputs.cache
+D:\3-1\Numerical\Codes\falsePosition\falsePosition\obj\Debug\netcoreapp3.1\falsePosition.AssemblyInfo.cs
+D:\3-1\Numerical\Codes\falsePosition\falsePosition\obj\Debug\netcoreapp3.1\falsePosition.csproj.CoreCompileInputs.cache
+D:\3-1\Numerical\Codes\falsePosition\falsePosition\obj\Debug\netcoreapp3.1\falsePosition.dll
+D:\3-1\Numerical\Codes\falsePosition\falsePosition\obj\Debug\netcoreapp3.1\falsePosition.pdb
+D:\3-1\Numerical\Codes\falsePosition\falsePosition\obj\Debug\netcoreapp3.1\falsePosition.genruntimeconfig.cache
