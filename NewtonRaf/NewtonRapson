@@ -1,0 +1,61 @@
+using System;
+
+class Newtone
+{
+    static float Accuracy = (float)0.0001;
+
+
+    static double Fun(double x)
+    {
+        return x*x*x-10*x*x - 3*x-2;
+    }
+    static double DefFun(double x)
+    {
+        double h = .001;
+        double def;
+        def = (Fun(x + h) - Fun(x)) / h;
+        return def;
+
+    }
+
+
+
+    static void Newton(double a, double b)
+    {
+        if (Fun(a) * Fun(b) >= 0 || a > b)
+        {
+            Console.WriteLine("Invalid Input");
+            return;
+        }
+
+        double c ;
+        c = (a + b) / 2;
+
+        double d = c ;
+      
+        
+
+        while (Math.Abs(d) >= Accuracy)
+        {
+            d = c - (Fun(c) / DefFun(c));
+            
+            if (Math.Abs(d-c) >= 0.0)
+            {
+                if (Math.Abs(d - c)<=Accuracy)
+                    break;
+                else
+                    c = d;
+            }
+            
+        }
+        Console.WriteLine("The valu of root is :" + d);
+    }
+
+    static public void Main()
+    {
+
+        double a = -100, b = 300;
+        Newton(a , b);
+        
+    }
+}
