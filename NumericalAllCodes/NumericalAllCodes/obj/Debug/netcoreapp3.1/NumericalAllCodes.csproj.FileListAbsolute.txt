@@ -1,0 +1,14 @@
+D:\3-1\Numerical\Codes\NumericalAllCodes\NumericalAllCodes\bin\Debug\netcoreapp3.1\NumericalAllCodes.exe
+D:\3-1\Numerical\Codes\NumericalAllCodes\NumericalAllCodes\bin\Debug\netcoreapp3.1\NumericalAllCodes.deps.json
+D:\3-1\Numerical\Codes\NumericalAllCodes\NumericalAllCodes\bin\Debug\netcoreapp3.1\NumericalAllCodes.runtimeconfig.json
+D:\3-1\Numerical\Codes\NumericalAllCodes\NumericalAllCodes\bin\Debug\netcoreapp3.1\NumericalAllCodes.runtimeconfig.dev.json
+D:\3-1\Numerical\Codes\NumericalAllCodes\NumericalAllCodes\bin\Debug\netcoreapp3.1\NumericalAllCodes.dll
+D:\3-1\Numerical\Codes\NumericalAllCodes\NumericalAllCodes\bin\Debug\netcoreapp3.1\NumericalAllCodes.pdb
+D:\3-1\Numerical\Codes\NumericalAllCodes\NumericalAllCodes\obj\Debug\netcoreapp3.1\NumericalAllCodes.csproj.AssemblyReference.cache
+D:\3-1\Numerical\Codes\NumericalAllCodes\NumericalAllCodes\obj\Debug\netcoreapp3.1\NumericalAllCodes.GeneratedMSBuildEditorConfig.editorconfig
+D:\3-1\Numerical\Codes\NumericalAllCodes\NumericalAllCodes\obj\Debug\netcoreapp3.1\NumericalAllCodes.AssemblyInfoInputs.cache
+D:\3-1\Numerical\Codes\NumericalAllCodes\NumericalAllCodes\obj\Debug\netcoreapp3.1\NumericalAllCodes.AssemblyInfo.cs
+D:\3-1\Numerical\Codes\NumericalAllCodes\NumericalAllCodes\obj\Debug\netcoreapp3.1\NumericalAllCodes.csproj.CoreCompileInputs.cache
+D:\3-1\Numerical\Codes\NumericalAllCodes\NumericalAllCodes\obj\Debug\netcoreapp3.1\NumericalAllCodes.dll
+D:\3-1\Numerical\Codes\NumericalAllCodes\NumericalAllCodes\obj\Debug\netcoreapp3.1\NumericalAllCodes.pdb
+D:\3-1\Numerical\Codes\NumericalAllCodes\NumericalAllCodes\obj\Debug\netcoreapp3.1\NumericalAllCodes.genruntimeconfig.cache

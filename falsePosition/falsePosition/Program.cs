@@ -7,7 +7,7 @@ namespace falsePosition
         static int loop= 10000;
         static double func(double x)
         {
-            return (x * x * x -  x + 1);
+            return x * x * x - x * x + 2;
         }
         static void regulaFalsi(double a, double b)
         {
@@ -33,9 +33,8 @@ namespace falsePosition
         }
         public static void Main(String[] args)
         {
-            double a, b;
-            a = Convert.ToDouble(Console.ReadLine());
-            b = Convert.ToDouble(Console.ReadLine());
+            double a=-2, b=3;
+           
             regulaFalsi(a, b);
         }
     }
