@@ -12,9 +12,14 @@ namespace NumericalAllCodes
             return x * x * x - x * x + 2;
         }
 
-        static double derivFunc(double x)
+        static double firstDerivFunc(double x)
         {
             return 3 * x * x - 2 * x;
+        }
+
+        static double secondDerivFunc(double x)
+        {
+            return 6 * x - 2 ;
         }
         static void IntervalChecker(double a, double b)
         {
@@ -22,10 +27,7 @@ namespace NumericalAllCodes
             {
                 Console.WriteLine("Worng interval");
             }
-        }
-
-
-       
+        } 
         //bisection
         static void bisection(double a,double b)
         {
@@ -68,13 +70,25 @@ namespace NumericalAllCodes
         // newtonRaphson
         static void newtonRaphson(double x)
         {
-            double h = func(x) / derivFunc(x);
+            double h = func(x) / firstDerivFunc(x);
             while (Math.Abs(h) >= accurecy)
             {
-                h = func(x) / derivFunc(x);
+                h = func(x) / firstDerivFunc(x);
                 x = x - h;
             }
             Console.WriteLine("Root Using NewtonRaphson Method is : " + x);
+        }
+        // Halley's method
+        static void halleys(double x)
+        {
+            double h = 2 * func(x) * firstDerivFunc(x) / 2 * firstDerivFunc(x) * firstDerivFunc(x) - func(x) * secondDerivFunc(x);
+            while (Math.Abs(h) >= accurecy)
+            {
+                h = 2*func(x)* firstDerivFunc(x) / 2* firstDerivFunc(x) * firstDerivFunc(x) - func(x) * secondDerivFunc( x);
+                x = x - h;
+
+            }
+            Console.WriteLine("Root Using Halley's Method is : " + x);
         }
 
         //main program
@@ -86,6 +100,7 @@ namespace NumericalAllCodes
 
             double xstart = -1.5;
             newtonRaphson(xstart);
+            halleys(xstart);
            
             //a = Convert.ToDouble(Console.ReadLine());
         }
