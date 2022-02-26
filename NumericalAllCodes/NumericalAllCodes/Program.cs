@@ -81,25 +81,29 @@ namespace NumericalAllCodes
         // Halley's method
         static void halleys(double x)
         {
-            double h = 2 * func(x) * firstDerivFunc(x) / 2 * firstDerivFunc(x) * firstDerivFunc(x) - func(x) * secondDerivFunc(x);
+            double h =( 2 * func(x) * firstDerivFunc(x))/ 
+                (2 * firstDerivFunc(x) * firstDerivFunc(x) - func(x) * secondDerivFunc(x));
             while (Math.Abs(h) >= accurecy)
             {
-                h = 2*func(x)* firstDerivFunc(x) / 2* firstDerivFunc(x) * firstDerivFunc(x) - func(x) * secondDerivFunc( x);
+                
+                h = (2 * func(x) * firstDerivFunc(x)) / 
+                    (2 * firstDerivFunc(x) * firstDerivFunc(x) - func(x) * secondDerivFunc(x));
                 x = x - h;
 
             }
             Console.WriteLine("Root Using Halley's Method is : " + x);
         }
+        
 
         //main program
         public static void Main()
         {
             double a=-2, b=3;
-            bisection(a, b);
-            regulaFalsi(a, b);
+            //bisection(a, b);
+            //regulaFalsi(a, b);
 
             double xstart = -1.5;
-            newtonRaphson(xstart);
+            //newtonRaphson(xstart);
             halleys(xstart);
            
             //a = Convert.ToDouble(Console.ReadLine());
