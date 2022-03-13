@@ -1,0 +1,52 @@
+
+using System;
+
+class Bisection
+{
+    static float Accuracy = (float)0.01;
+
+
+    static double fun(double x)
+    {
+        return x * x - 3;
+    }
+
+
+    static void bisection(double a,
+                          double b)
+    {
+        if (fun(a) * fun(b) >= 0)
+        {
+            Console.WriteLine("Invalid Input");
+            return;
+        }
+
+        double c = 0;
+        while ((b - a) >= Accuracy)
+        {
+
+            c = (a + b) / 2;
+
+
+            if (fun(c) == 0.0)
+                break;
+
+            else if (fun(c) * fun(a) < 0)
+                b = c;
+            else
+                a = c;
+        }
+
+
+        Console.WriteLine("The value of " +
+                          "root is : " + c);
+    }
+
+
+    static public void Main()
+    {
+
+        double a = -1, b = 2;
+        bisection(a, b);
+    }
+}
