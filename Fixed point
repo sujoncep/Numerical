@@ -1,0 +1,53 @@
+using System;
+
+class FixedPoint
+{
+    static double accuracy = 0.001;
+
+
+    static double fun(double x)
+    {
+        return x * x - 3*x;
+    }
+    static double fun2(double x)
+    {
+        return x*x/3;
+    }
+
+
+
+    static void Fixed(double a, double b)
+    {
+        
+        double d = 0;
+        if (fun(a) * fun(b) >= 0)
+        {
+            Console.WriteLine("Invalid Input");
+            return;
+        }
+
+
+
+        for (int i = 0; i < 1000; i++)
+        {
+            if (Math.Abs(fun(a)) > Math.Abs(fun(b)))
+                d = a;
+            else
+                d = b;
+            double c = fun2(d);
+            if (Math.Abs(c) <= accuracy)
+                break;
+            else
+                d = c;
+
+        }
+        Console.WriteLine(+d);
+
+    }
+    static void Main()
+    {
+        double a = 1, b = 5;
+        Fixed (a, b);
+
+    }
+}
