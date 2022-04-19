@@ -6,6 +6,7 @@ namespace NumericalAllCodes
     {
         static double accurecy = 0.001;
         static int loop = 10000;
+        static double n = 3;
 
         static double func(double x)
         {
@@ -191,6 +192,35 @@ namespace NumericalAllCodes
             Console.WriteLine("Root Using SecantMethod Method is : " + c);
         }
 
+        //MidPoint
+        static void midpoint(double a,double b)
+        {
+            if (a == b)
+            {
+                Console.WriteLine("Invalid Input");
+                return;
+            }
+            double c;
+            double sum = 0;
+
+            c = Math.Abs(a - b);
+            double d = c / n;
+            double e = 0;
+            e = (a + d) / 2;
+
+            double y = e;
+            for (int i = 0; i < n; i++)
+            {
+                y = y + d;
+                if (y > c)
+                break;
+                double g = Math.Abs(func(y) * d);
+                sum = sum + g;
+            }
+            double ans = sum + Math.Abs(func(e));
+            Console.WriteLine("Using MidPoint Value System Area is:" + ans);
+        }
+
         //main program
         public static void Main()
         {
@@ -203,6 +233,7 @@ namespace NumericalAllCodes
             //FixedPoint(a, b);
             //steffensenMethod(a, b);
             //secentMethod(a, b);
+            //midpoint(a, b);
 
         }
     }
