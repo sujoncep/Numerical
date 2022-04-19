@@ -173,6 +173,23 @@ namespace NumericalAllCodes
             Console.WriteLine("Root Using Steffensen's Method is : " + d);
         }
 
+        //SecantMethod
+
+        static void secentMethod(double a, double b)
+        {
+            IntervalChecker(a, b);
+            double c = 0;
+            while (Math.Abs(b - a) >= accurecy)
+            {
+                c = a - (func(a) * ((b - a) / (func(b) - func(a))));
+                if (func(c) == 0.0)
+                    break;
+                else
+                a = b;
+                b = c;
+            }
+            Console.WriteLine("Root Using SecantMethod Method is : " + c);
+        }
 
         //main program
         public static void Main()
@@ -185,6 +202,7 @@ namespace NumericalAllCodes
             //muller(a, b, c);
             //FixedPoint(a, b);
             //steffensenMethod(a, b);
+            //secentMethod(a, b);
 
         }
     }

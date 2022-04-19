@@ -1,0 +1,13 @@
+D:\3-1\Numerical\Codes\secant\secant\bin\Debug\netcoreapp3.1\secant.exe
+D:\3-1\Numerical\Codes\secant\secant\bin\Debug\netcoreapp3.1\secant.deps.json
+D:\3-1\Numerical\Codes\secant\secant\bin\Debug\netcoreapp3.1\secant.runtimeconfig.json
+D:\3-1\Numerical\Codes\secant\secant\bin\Debug\netcoreapp3.1\secant.runtimeconfig.dev.json
+D:\3-1\Numerical\Codes\secant\secant\bin\Debug\netcoreapp3.1\secant.dll
+D:\3-1\Numerical\Codes\secant\secant\bin\Debug\netcoreapp3.1\secant.pdb
+D:\3-1\Numerical\Codes\secant\secant\obj\Debug\netcoreapp3.1\secant.GeneratedMSBuildEditorConfig.editorconfig
+D:\3-1\Numerical\Codes\secant\secant\obj\Debug\netcoreapp3.1\secant.AssemblyInfoInputs.cache
+D:\3-1\Numerical\Codes\secant\secant\obj\Debug\netcoreapp3.1\secant.AssemblyInfo.cs
+D:\3-1\Numerical\Codes\secant\secant\obj\Debug\netcoreapp3.1\secant.csproj.CoreCompileInputs.cache
+D:\3-1\Numerical\Codes\secant\secant\obj\Debug\netcoreapp3.1\secant.dll
+D:\3-1\Numerical\Codes\secant\secant\obj\Debug\netcoreapp3.1\secant.pdb
+D:\3-1\Numerical\Codes\secant\secant\obj\Debug\netcoreapp3.1\secant.genruntimeconfig.cache
