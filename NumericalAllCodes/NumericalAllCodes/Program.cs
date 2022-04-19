@@ -11,6 +11,14 @@ namespace NumericalAllCodes
         {
             return x * x * x - x * x + 2;
         }
+        static double func2(double x)
+        {
+            return x * x - 3;
+        }
+        static double func3(double x)
+        {
+            return x * x / 3;
+        }
 
         static double firstDerivFunc(double x)
         {
@@ -93,20 +101,91 @@ namespace NumericalAllCodes
             }
             Console.WriteLine("Root Using Halley's Method is : " + x);
         }
-        
+
+        //mularMethod
+
+        static void muller(double a, double b, double c)
+        {
+            double d = 0;
+            for (int i = 0; i < 1000; i++)
+            {
+                double d1 = func2(a) - func2(c);
+                double d2 = func2(b) - func2(c);
+                double h1 = a - c;
+                double h2 = b - c;
+                double a0 = func2(c);
+                double a1 = (((d2 * Math.Pow(h1, 2)) - (d1 * Math.Pow(h2, 2)))
+                            / ((h1 * h2) * (h1 - h2)));
+                double a2 = (((d1 * h2) - (d2 * h1)) / ((h1 * h2) * (h1 - h2)));
+                double x = ((-2 * a0) / (a1 + Math.Abs(Math.Sqrt(a1 * a1 - 4 * a0 * a2))));
+                double y = ((-2 * a0) / (a1 - Math.Abs(Math.Sqrt(a1 * a1 - 4 * a0 * a2))));
+                if (x >= y)
+                    d = x + c;
+                else
+                    d = y + c;
+                if (d == c)
+                {
+                    Console.WriteLine("Root Using Mullar Method is : " + d);
+                    break;
+                }
+                else
+                a = b;
+                b = c;
+                c = d;
+            }
+        }
+
+        //FixedPoint
+        static void FixedPoint(double a, double b)
+        {
+            double d = 0;
+            IntervalChecker(a, b);
+            for (int i = 0; i < 1000; i++)
+            {
+                if (Math.Abs(func2(a)) > Math.Abs(func2(b)))
+                    d = a;
+                else
+                    d = b;
+                double c = func3(d);
+                if (Math.Abs(c) <= accurecy)
+                    break;
+                else
+                    d = c;
+            }
+            Console.WriteLine("Root Using FixedPoint Method is : " +d);
+        }
+
+        //Steffensen's method
+
+        static void steffensenMethod(double a, double b)
+        {
+            IntervalChecker(a, b);
+            double d = 0;
+            double c = (a + b) / 2;
+            for (int i = 0; i < 1000; i++)
+            {
+                d = c - ((func2(c) * func2(c)) / ((func2(c + func2(c))) - func2(c)));
+                if (Math.Abs(func2(d)) <= accurecy)
+                    break;
+                else
+                    c = Math.Abs(d);
+            }
+            Console.WriteLine("Root Using Steffensen's Method is : " + d);
+        }
+
 
         //main program
         public static void Main()
         {
-            double a=-2, b=3;
+            double a=-2, b=3, c=5, xstart = -1.5;
             //bisection(a, b);
             //regulaFalsi(a, b);
-
-            double xstart = -1.5;
             //newtonRaphson(xstart);
-            halleys(xstart);
-           
-            //a = Convert.ToDouble(Console.ReadLine());
+            //halleys(xstart);
+            //muller(a, b, c);
+            //FixedPoint(a, b);
+            //steffensenMethod(a, b);
+
         }
     }
 }
