@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\3-1\\Numerical\\Codes\\NumericalAllCodes\\NumericalAllCodes\\NumericalAllCodes.csproj",
-      "projectName": "NumericalAllCodes",
-      "projectPath": "D:\\3-1\\Numerical\\Codes\\NumericalAllCodes\\NumericalAllCodes\\NumericalAllCodes.csproj",
+      "projectUniqueName": "D:\\3-1\\Numerical\\Codes\\gaussianElimination\\gaussianElimination\\gaussianElimination.csproj",
+      "projectName": "gaussianElimination",
+      "projectPath": "D:\\3-1\\Numerical\\Codes\\gaussianElimination\\gaussianElimination\\gaussianElimination.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\3-1\\Numerical\\Codes\\NumericalAllCodes\\NumericalAllCodes\\obj\\",
+      "outputPath": "D:\\3-1\\Numerical\\Codes\\gaussianElimination\\gaussianElimination\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

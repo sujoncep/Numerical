@@ -1,0 +1,14 @@
+D:\3-1\Numerical\Codes\Euluers\Euluers\bin\Debug\netcoreapp3.1\Euluers.exe
+D:\3-1\Numerical\Codes\Euluers\Euluers\bin\Debug\netcoreapp3.1\Euluers.deps.json
+D:\3-1\Numerical\Codes\Euluers\Euluers\bin\Debug\netcoreapp3.1\Euluers.runtimeconfig.json
+D:\3-1\Numerical\Codes\Euluers\Euluers\bin\Debug\netcoreapp3.1\Euluers.runtimeconfig.dev.json
+D:\3-1\Numerical\Codes\Euluers\Euluers\bin\Debug\netcoreapp3.1\Euluers.dll
+D:\3-1\Numerical\Codes\Euluers\Euluers\bin\Debug\netcoreapp3.1\Euluers.pdb
+D:\3-1\Numerical\Codes\Euluers\Euluers\obj\Debug\netcoreapp3.1\Euluers.csproj.AssemblyReference.cache
+D:\3-1\Numerical\Codes\Euluers\Euluers\obj\Debug\netcoreapp3.1\Euluers.GeneratedMSBuildEditorConfig.editorconfig
+D:\3-1\Numerical\Codes\Euluers\Euluers\obj\Debug\netcoreapp3.1\Euluers.AssemblyInfoInputs.cache
+D:\3-1\Numerical\Codes\Euluers\Euluers\obj\Debug\netcoreapp3.1\Euluers.AssemblyInfo.cs
+D:\3-1\Numerical\Codes\Euluers\Euluers\obj\Debug\netcoreapp3.1\Euluers.csproj.CoreCompileInputs.cache
+D:\3-1\Numerical\Codes\Euluers\Euluers\obj\Debug\netcoreapp3.1\Euluers.dll
+D:\3-1\Numerical\Codes\Euluers\Euluers\obj\Debug\netcoreapp3.1\Euluers.pdb
+D:\3-1\Numerical\Codes\Euluers\Euluers\obj\Debug\netcoreapp3.1\Euluers.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+D:\3-1\Numerical\Codes\gaussianElimination\gaussianElimination\bin\Debug\netcoreapp3.1\gaussianElimination.exe
+D:\3-1\Numerical\Codes\gaussianElimination\gaussianElimination\bin\Debug\netcoreapp3.1\gaussianElimination.deps.json
+D:\3-1\Numerical\Codes\gaussianElimination\gaussianElimination\bin\Debug\netcoreapp3.1\gaussianElimination.runtimeconfig.json
+D:\3-1\Numerical\Codes\gaussianElimination\gaussianElimination\bin\Debug\netcoreapp3.1\gaussianElimination.runtimeconfig.dev.json
+D:\3-1\Numerical\Codes\gaussianElimination\gaussianElimination\bin\Debug\netcoreapp3.1\gaussianElimination.dll
+D:\3-1\Numerical\Codes\gaussianElimination\gaussianElimination\bin\Debug\netcoreapp3.1\gaussianElimination.pdb
+D:\3-1\Numerical\Codes\gaussianElimination\gaussianElimination\obj\Debug\netcoreapp3.1\gaussianElimination.csproj.AssemblyReference.cache
+D:\3-1\Numerical\Codes\gaussianElimination\gaussianElimination\obj\Debug\netcoreapp3.1\gaussianElimination.GeneratedMSBuildEditorConfig.editorconfig
+D:\3-1\Numerical\Codes\gaussianElimination\gaussianElimination\obj\Debug\netcoreapp3.1\gaussianElimination.AssemblyInfoInputs.cache
+D:\3-1\Numerical\Codes\gaussianElimination\gaussianElimination\obj\Debug\netcoreapp3.1\gaussianElimination.AssemblyInfo.cs
+D:\3-1\Numerical\Codes\gaussianElimination\gaussianElimination\obj\Debug\netcoreapp3.1\gaussianElimination.csproj.CoreCompileInputs.cache
+D:\3-1\Numerical\Codes\gaussianElimination\gaussianElimination\obj\Debug\netcoreapp3.1\gaussianElimination.dll
+D:\3-1\Numerical\Codes\gaussianElimination\gaussianElimination\obj\Debug\netcoreapp3.1\gaussianElimination.pdb
+D:\3-1\Numerical\Codes\gaussianElimination\gaussianElimination\obj\Debug\netcoreapp3.1\gaussianElimination.genruntimeconfig.cache
